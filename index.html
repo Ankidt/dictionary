@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Dictionary </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">English Dictionary</h1>
+        <input placeholder="Search a word" type="text" class="input" id="input"/>
+        <p class="info-text" id="info-text">Type a Word And Press Enter</p>
+        <div class="meaning-container" id="meaning-container">
+            <p>Word Title:<span class="title" id="title">___________</span></p>
+            <p>Meaning:<span class="meaning" id="meaning">___________</span></p>
+            <p>Example:<span class="examp" id="examp">___________</span></p>
+            <audio src="" controls id="audio"></audio>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- https://api.dictionaryapi.dev/api/v2/entries/en/<word> -->
+    
+</body>
+</html>
